@@ -16,7 +16,7 @@ public class HelloRessources {
     // This method handles GET requests sent to /hello/hi
     @GET
     @Path("/hi")
-    @Produces(MediaType.TEXT_PLAIN)   // The response will be returned as plain text
+    @Produces(MediaType.TEXT_PLAIN)   // The response will be returned as plain text // representation
     public Response sayHello() {
         // Build an HTTP 200 (OK) response with the message "Hello World!"
         return Response
